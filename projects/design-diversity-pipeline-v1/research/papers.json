@@ -1,0 +1,81 @@
+{
+  "papers": [
+    {
+      "id": "designscape",
+      "title": "DesignScape: Design with Interactive Layout Suggestions",
+      "authors": "O’Donovan; Agarwala; Hertzmann",
+      "year": 2015,
+      "venue": "CHI",
+      "url": "https://www.dgp.toronto.edu/~donovan/design/designscape.pdf",
+      "application": "布局优化与不同方向探索",
+      "limitations": "不是完整网页品牌风格分类；本包借鉴不复现原优化器",
+      "review_scope": "原文/摘要与本对话检索；非系统综述"
+    },
+    {
+      "id": "scout",
+      "title": "Scout: Rapid Exploration of Interface Layout Alternatives through High-Level Design Constraints",
+      "authors": "Swearngin et al.",
+      "year": 2020,
+      "venue": "CHI",
+      "url": "https://arxiv.org/abs/2001.05424",
+      "application": "语义分组/顺序/强调映射为空间约束",
+      "limitations": "布局研究不自动验证完整网页视觉与业务",
+      "review_scope": "原文/摘要与本对话检索；非系统综述"
+    },
+    {
+      "id": "map-elites",
+      "title": "Illuminating Search Spaces by Mapping Elites",
+      "authors": "Mouret; Clune",
+      "year": 2015,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1504.04909",
+      "application": "按特征区域保留高质量候选",
+      "limitations": "非网页实验；特征空间须自行定义",
+      "review_scope": "原文/摘要与本对话检索；非系统综述"
+    },
+    {
+      "id": "dpp",
+      "title": "Determinantal Point Processes for Machine Learning",
+      "authors": "Kulesza; Taskar",
+      "year": 2012,
+      "venue": "Foundations and Trends in Machine Learning",
+      "url": "https://arxiv.org/abs/1207.6083",
+      "application": "候选集合质量与低重复选择",
+      "limitations": "相似度表征仍需设计；固定数量选择不是保证最优",
+      "review_scope": "原文/摘要与本对话检索；非系统综述"
+    },
+    {
+      "id": "webzeitgeist",
+      "title": "Webzeitgeist: Design Mining the Web",
+      "authors": "Kumar et al.",
+      "year": 2013,
+      "venue": "CHI",
+      "url": "https://hci.stanford.edu/publications/2013/Webzeitgeist/webzeitgeist.pdf",
+      "application": "渲染结构、DOM与视觉特征知识挖掘",
+      "limitations": "不是国际风格分类或可用素材许可",
+      "review_scope": "原文/摘要与本对话检索；非系统综述"
+    },
+    {
+      "id": "parallel-prototyping",
+      "title": "Parallel Prototyping Leads to Better Design Results, More Divergence, and Increased Self-Efficacy",
+      "authors": "Dow et al.",
+      "year": 2010,
+      "venue": "TOCHI",
+      "url": "https://hci.stanford.edu/publications/2010/parallel-prototyping/ParallelPrototyping2010-final.pdf",
+      "application": "平行探索与比较反馈",
+      "limitations": "广告任务；不证明十页最优或必须多个Agent",
+      "review_scope": "原文/摘要与本对话检索；非系统综述"
+    },
+    {
+      "id": "design2code",
+      "title": "Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering",
+      "authors": "Si et al.",
+      "year": 2025,
+      "venue": "NAACL（预印本2024）",
+      "url": "https://aclanthology.org/2025.naacl-long.199/",
+      "application": "截图到代码的还原评估",
+      "limitations": "还原相似性不等于创意多样性",
+      "review_scope": "原文/摘要与本对话检索；非系统综述"
+    }
+  ]
+}

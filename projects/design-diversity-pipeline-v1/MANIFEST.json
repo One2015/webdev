@@ -1,0 +1,103 @@
+{
+  "project": "design-diversity-pipeline",
+  "version": "1.0.0",
+  "date": "2026-09-14",
+  "scope": "standalone documentation and contracts, not complete pipeline implementation",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "37b2fe421bcf85a7413719ef7013a253dd6902cb8cc3518da3f7a1500d10bd41",
+      "bytes": 2365
+    },
+    {
+      "path": "docs/data-contracts.md",
+      "sha256": "0863b52629fc3a37f0c1c63fb4cdacc3db822c4223f843bf17c53e117b918ab6",
+      "bytes": 4292
+    },
+    {
+      "path": "docs/diversity.md",
+      "sha256": "55f6072b0fbf2604c9b5c6c1a7b0c7b54e9fa7fcae2cd1ae481fde157f6b9191",
+      "bytes": 3947
+    },
+    {
+      "path": "docs/implementation-plan.md",
+      "sha256": "d80af59f72d4747e06b4cac143178701e8a23a41f1912519f7ed638c032e9640",
+      "bytes": 2606
+    },
+    {
+      "path": "docs/pipeline.md",
+      "sha256": "09381278092a25d110fa0631d0456285351b144502d5f49e2980e1f277988867",
+      "bytes": 3145
+    },
+    {
+      "path": "docs/usage.md",
+      "sha256": "8ada78ad1bcf44880e75c920767f655949d8b34217ac30f0c1d12ec610e24d32",
+      "bytes": 2794
+    },
+    {
+      "path": "examples/refine-request.json",
+      "sha256": "8d91c05b6248ab293e71d82d47a4ad596c9e04ae5016f154d7c02674fa460621",
+      "bytes": 541
+    },
+    {
+      "path": "examples/review-result.json",
+      "sha256": "fc6e6ef30ad7bc1ee7a42e21df1a185aa433d35f2eb23da0e90edce6f5ee81ff",
+      "bytes": 486
+    },
+    {
+      "path": "examples/style-profile.json",
+      "sha256": "cf890c4a3db711bf086c2b5cf3effd8b52ccbddd234fb4308b7987d231662f48",
+      "bytes": 721
+    },
+    {
+      "path": "examples/task-batch.json",
+      "sha256": "d4f432967eea87b5e5e1d7286e8c29a505cf34d32ca499876d59d1cd00196061",
+      "bytes": 1154
+    },
+    {
+      "path": "history/conversation-decisions.md",
+      "sha256": "1b0c5e632c008dbb1c8b06ecf1cca9415d76f3e7623aa2036c1bf521a022ec9d",
+      "bytes": 3359
+    },
+    {
+      "path": "history/review-lessons.md",
+      "sha256": "e0670ae89353919687659f4183695409ac4a545611224857ba66f81a80a1ca88",
+      "bytes": 1624
+    },
+    {
+      "path": "prompts/kickoff.md",
+      "sha256": "c9188d42a9b25f97d0c56773cf8327116ad88cdaa8071baa87f94b3a4d1ba015",
+      "bytes": 1064
+    },
+    {
+      "path": "prompts/system-prompt.md",
+      "sha256": "04024f0db3deee2e2fd73835c892c9cae2ebee7b01926c5448c6d36174a28e28",
+      "bytes": 10332
+    },
+    {
+      "path": "research/papers.json",
+      "sha256": "0c5bf266ce6af36b1aec2d05131ef7d6df7f0b27a79394ea6b0f013e996585ec",
+      "bytes": 3491
+    },
+    {
+      "path": "research/reading-guide.md",
+      "sha256": "75b9fc50a2c191259b2b7b7dfea610458d49e7cf980eeb9fbd5ff120e72812e3",
+      "bytes": 3403
+    },
+    {
+      "path": "rubrics/README.md",
+      "sha256": "bb3f27177e97a69ef05f2049ea2066d012667a638d4ae62076c8371be2362fa8",
+      "bytes": 2097
+    },
+    {
+      "path": "rubrics/rules.json",
+      "sha256": "1c8a60816053543478fb1aec8ec2c7a46c00adb1d43a9e338e270c72c50285b5",
+      "bytes": 8987
+    },
+    {
+      "path": "scripts/validate.py",
+      "sha256": "61d636af62d1329238dc5e6466b2a864ada1cd49dbf4c085e621b137191c7a6f",
+      "bytes": 2702
+    }
+  ]
+}
