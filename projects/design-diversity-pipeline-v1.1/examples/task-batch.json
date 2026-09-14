@@ -1,0 +1,54 @@
+{
+  "version": "1.1.0",
+  "example_only": true,
+  "compile_scope": "demand",
+  "execution_end": "query_only",
+  "operation": "explore",
+  "knowledge_mode": "reuse_with_targeted_learning",
+  "asset_mode": "search_and_prepare",
+  "category": "fashion_commerce",
+  "page_type": "multi_page_site",
+  "business_branch": "direct_purchase",
+  "workspace": "SET_AUTHORIZED_WORKSPACE",
+  "output_root": "SET_NEW_OUTPUT_DIRECTORY",
+  "preserve": [
+    "business_goal",
+    "required_tasks",
+    "state_contract",
+    "content_facts"
+  ],
+  "diversity": {
+    "priority": [
+      "visual",
+      "page_architecture"
+    ],
+    "suggested_style_families": 6,
+    "suggested_pa_families": 3,
+    "force_low_quality_fill": false,
+    "threshold_status": "ordinal_review_first_requires_calibration"
+  },
+  "budgets": {
+    "reference_candidates": 12,
+    "reference_deep_reads": 6,
+    "reference_repair_rounds": 2,
+    "asset_candidates_per_direction": 20,
+    "asset_search_rounds": 2,
+    "refine_rounds_before_replan": 2
+  },
+  "assumptions": [
+    "演示商品，不伪造真实品牌与评价"
+  ],
+  "authorization": {
+    "build": false,
+    "publish": false,
+    "preview_render": false
+  },
+  "candidate_pool_target": 12,
+  "delivery_target": 3,
+  "preview_mode": "reference_board",
+  "page_scope": [
+    "listing",
+    "detail",
+    "bag"
+  ]
+}

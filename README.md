@@ -1,30 +1,34 @@
-# Webdev 文档归档
+# WebDev 2.0 — 网站配方、生成稳定性与多样性
 
-本仓库保存 Webdev 工作区的全部 Markdown、Word 和 PDF 文档，保留原始目录结构和历史版本。
+当前版本：**v1.1**（2026-09-14）。
 
-## 目录
+先固定业务，再规划不同的网站配方；先确认做得好，再判断是否明显不同。
 
-- `outputs/`：实验方案完整版和精简版 Word 文档、Query QA 设计文档，以及对话资料包中的 Markdown 文档和技能快照。
-- `work/`：方案 PDF、产品设计工作规范和技能文档副本。
-- `SHA256SUMS`：文档及归档说明的 SHA-256 校验清单；不包含该清单自身。
+## 最新资料
 
-## 归档范围
+- [v1.1 完整项目与目录](projects/design-diversity-pipeline-v1.1/README.md)
+- [完整 System Prompt](projects/design-diversity-pipeline-v1.1/prompts/system-prompt.md)
+- [操作方式](projects/design-diversity-pipeline-v1.1/docs/usage.md)
+- [Layout / Font 等生成稳定性](projects/design-diversity-pipeline-v1.1/docs/generation-stability.md)
+- [多样性评估](projects/design-diversity-pipeline-v1.1/docs/diversity-evaluation.md)
+- [Rubric](projects/design-diversity-pipeline-v1.1/rubrics/README.md)
+- [完整 ZIP 下载](downloads/webdev2-system-prompt-stability-diversity-v1.1-2026-09-14.zip)
 
-归档日期：2026-09-14。
+包括系统指令、使用模板、25条规则、评估示例、论文索引与本Chat决策摘要。资料包包含30个文件；是方案与执行契约，不是已实现的完整网页生成引擎。
 
-Git 上传范围为当前 Webdev 目录中的全部 `.md`、`.docx` 和 `.pdf` 文件，以及本说明、`.gitignore` 和校验清单。Word 文档中的嵌入图片完整保留。独立素材、制作脚本、二进制依赖及已有 ZIP 保留在本地完整目录备份中。
-
-本地归档：
-
-- `archives/webdev-documents-2026-09-14.zip`：与本次 Git 提交内容一致的文档包。
-- `archives/webdev-workspace-2026-09-14.zip`：完整目录备份，包含文档、素材、制作脚本、依赖及已有 ZIP，并附独立的完整校验清单。
-
-两个压缩包解压后根目录均为 `Webdev/`；压缩包本身不重复提交到 Git。排除 Git 内部数据、macOS `.DS_Store` 文件及 `archives/` 输出目录。工作区之外的账户配置、聊天数据库和已安装技能不在本次范围内。
-
-解压后可在 `Webdev/` 目录验证文件完整性：
+## 校验
 
 ```sh
+python3 projects/design-diversity-pipeline-v1.1/scripts/validate.py
 shasum -a 256 -c SHA256SUMS
 ```
 
-原始工作文件保留其原有环境路径和依赖配置；本次归档未改写内容。
+前者只读校验资料完整性；后者校验仓库跟踪文件（不包含根校验清单自身）。ZIP有同目录独立.sha256。页面测试需要另按任务实际执行。
+
+## 历史内容
+
+- [v1.0](projects/design-diversity-pipeline-v1/README.md)
+- `outputs/`、`work/`：原有文档和研究归档。
+- `archives/`：本地历史备份，不提交Git；最新可下载包单独放在`downloads/`。
+
+本次main通过正常提交更新到v1.1，保留历史文档和提交记录。未将工作区外的源码、素材、账户或聊天数据库加入发布。

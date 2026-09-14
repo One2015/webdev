@@ -1,0 +1,38 @@
+{
+  "example_only": true,
+  "version": "1.1.0",
+  "delivery_target": 3,
+  "required_pair_count": 3,
+  "quality_first": true,
+  "checklists": [
+    "functional",
+    "page_quality",
+    "site_consistency",
+    "direction_difference"
+  ],
+  "difference_dimensions": [
+    "page_architecture",
+    "interface_style",
+    "image_language",
+    "interaction_organization"
+  ],
+  "primary_difference_dimension": "interface_style",
+  "ordinal_scale": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "minimum_ordinal": 2,
+  "threshold_origin": "project_policy_to_calibrate",
+  "fixed_weights": null,
+  "views": [
+    "desktop_first_screen",
+    "desktop_representative_region",
+    "mobile_first_screen"
+  ],
+  "required_pair_review": "all_selected_pairs",
+  "unreviewed_pair_status": "not_run",
+  "environment": "record_actual_browser_viewport_dpr_locale_and_state",
+  "completion": "all_required_quality_and_pair_checks_pass"
+}

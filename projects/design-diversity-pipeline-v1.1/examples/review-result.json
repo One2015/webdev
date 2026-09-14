@@ -1,0 +1,19 @@
+{
+  "example_only": true,
+  "run_id": "example-run",
+  "candidate_id": "candidate-01",
+  "rule_id": "R11",
+  "status": "fail",
+  "actual": {
+    "viewport": 1240,
+    "available_width": 1192,
+    "required_width": 1200
+  },
+  "expected": "required_width <= available_width",
+  "evidence": [],
+  "environment": "synthetic arithmetic example, not a page measurement",
+  "repair": {
+    "target": "source_config",
+    "suggestion": "调整断点或列宽后重新检查区间边界"
+  }
+}

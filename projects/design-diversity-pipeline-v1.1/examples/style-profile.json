@@ -1,0 +1,27 @@
+{
+  "example_only": true,
+  "id": "SP-EDITORIAL-WARM",
+  "family": "editorial",
+  "source_status": "project_proposed",
+  "applicable_context": [
+    "图像与文字均重要的住宿介绍"
+  ],
+  "anti_context": [
+    "无可用摄影且内容极少"
+  ],
+  "dna": {
+    "typography": "serif_display_sans_body",
+    "palette_relation": "warm_light_dark_text",
+    "density": "airy",
+    "surface": "thin_rules_low_depth",
+    "image_direction": "natural_light_coherent_interiors"
+  },
+  "identity_locks": [
+    "serif_display_sans_body",
+    "warm_light_dark_text",
+    "thin_rules_low_depth"
+  ],
+  "page_architecture_compatibility": "unknown_until_mapped",
+  "motion": "only_task_supporting",
+  "reference_ids": []
+}

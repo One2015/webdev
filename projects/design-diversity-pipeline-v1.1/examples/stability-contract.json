@@ -1,0 +1,75 @@
+{
+  "example_only": true,
+  "status": "specification_only",
+  "layout": {
+    "breakpoint_boundary_tests": [
+      "lower_bound",
+      "before_1px",
+      "at",
+      "after_1px",
+      "mid_interval"
+    ],
+    "whole_page_horizontal_overflow": "forbidden_unless_explicitly_required",
+    "internal_scroll_regions": [
+      "gallery"
+    ],
+    "content_fixtures": [
+      "short",
+      "long_title",
+      "mixed_cjk_latin",
+      "long_price",
+      "error",
+      "empty",
+      "loading"
+    ],
+    "geometry_tolerance_px": 1,
+    "tolerance_origin": "proposed_project_measurement_tolerance_not_occlusion_allowance"
+  },
+  "fonts": {
+    "manifest_required": [
+      "file_or_url",
+      "sha256",
+      "license",
+      "weight_style_or_axes",
+      "character_coverage",
+      "fallback",
+      "font_display"
+    ],
+    "checks": [
+      "declared",
+      "resource_loaded",
+      "glyph_coverage",
+      "actual_rendering_evidence",
+      "fallback_failure_case"
+    ],
+    "font_ready_alone_is_proof": false,
+    "synthetic_weight_policy": "explicit_decision"
+  },
+  "resources": {
+    "reserve_image_space": true,
+    "capture_after": [
+      "fonts_settled",
+      "required_images_decoded",
+      "ui_state_stable"
+    ],
+    "also_test": [
+      "cold_load",
+      "resource_failure",
+      "async_error"
+    ]
+  },
+  "reproduction": {
+    "lock": [
+      "source_revision",
+      "recipe_hash",
+      "font_hashes",
+      "asset_hashes",
+      "fixture",
+      "browser",
+      "viewport",
+      "dpr",
+      "locale"
+    ],
+    "llm_regeneration_byte_identical_guarantee": false
+  }
+}

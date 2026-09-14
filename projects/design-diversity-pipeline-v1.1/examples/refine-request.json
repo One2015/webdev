@@ -1,0 +1,25 @@
+{
+  "example_only": true,
+  "operation": "refine",
+  "base_design": "candidate-01",
+  "base_hash": "REPLACE_WITH_ACTUAL_HASH",
+  "issues": [
+    {
+      "id": "ISSUE-01",
+      "description": "窄桌面正文受挤压",
+      "evidence": "REPLACE_WITH_ACTUAL_MEASUREMENT"
+    }
+  ],
+  "preserve": [
+    "business_goal",
+    "page_architecture",
+    "state_contract",
+    "style_identity"
+  ],
+  "editable": [
+    "layout.column_gap",
+    "layout.content_width"
+  ],
+  "execution_end": "query_only",
+  "on_lock_conflict": "requires_replan"
+}
