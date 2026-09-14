@@ -1,0 +1,10 @@
+# Publish documentation only; retain other workspace files locally.
+*
+!*/
+!*.md
+!*.docx
+!*.pdf
+!/.gitignore
+!/SHA256SUMS
+/archives/
+.DS_Store
